@@ -119,6 +119,9 @@ hr {
 @media (max-width: 576px){
     .top-players, .courses, .top-blogs {
         grid-template-columns: repeat(1, 1fr);
+
+    }
+    .courses, .top-blogs {
         place-items: center;
     }
 }
